@@ -1,0 +1,15 @@
+name = "stripe-mailchimp-sync"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+kv_namespaces = [
+  { binding = "PROCESSED_EVENTS", id = "4245bae1c1744b5281d5252eaa18f60c" }
+]
+
+# Set these via `wrangler secret put <NAME>`
+# STRIPE_WEBHOOK_SECRET
+# MAILCHIMP_API_KEY
+# MAILCHIMP_SERVER_PREFIX
+# MAILCHIMP_LIST_ID
+# MAILCHIMP_TAG
+# MAILCHIMP_CANCEL_TAG

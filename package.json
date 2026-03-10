@@ -1,0 +1,13 @@
+{
+  "name": "stripe-mailchimp-sync",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}
